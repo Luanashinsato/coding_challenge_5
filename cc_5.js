@@ -3,3 +3,16 @@ let customer = { name: "John Doe", age: 35, email: "john.doe@email.com" }; // De
 for (let key in customer) {
     console.log(`${key}: ${customer[key]}`);
 }; // Logging each property and value using for...in loop 
+
+// Task 2: Object Methods
+let order = { 
+    orderId: 12345, 
+    totalAmount: 150, 
+    status: "Processing",
+    displayOrder: function() {
+        console.log(`Order ID: ${this.orderId}`);
+        console.log(`Total Amount: $${this.totalAmount}`);
+        console.log(`Status: ${this.status}`);
+      }
+}; // Declaring an object order
+order.displayOrder(); // Calling the method to log the order
