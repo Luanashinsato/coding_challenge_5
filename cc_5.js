@@ -16,3 +16,11 @@ let order = {
       }
 }; // Declaring an object order
 order.displayOrder(); // Calling the method to log the order
+
+// Task 3: Array Manipulation 
+let cartItems = ["Tshirt", "Pants", "Hoodie"]; // Declaring an array cartItems 
+cartItems.push("Skirt"); // Adding a new product
+cartItems.pop(); // Removing the last item
+cartItems.unshift("Dress"); // Adding an item at the beginning 
+cartItems.shift(); // Removing the first item 
+console.log("Shopping Cart:", cartItems); // Logging the final array
