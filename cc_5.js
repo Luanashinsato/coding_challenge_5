@@ -59,3 +59,8 @@ const applyDiscount = function(price, discount) {
 }; // Declaring the function expression 
 let discountedPrice = applyDiscount(150, 20); // Calling the function
 console.log(`Discounted Price: $${discountedPrice}`); // Logging the discounted price 
+
+// Task 10: Arrow Function
+const calculatePoints = purchaseAmount => purchaseAmount / 10; // Writing the arrow function
+let points = calculatePoints(300); // Calling the function
+console.log (`Earned Points: ${points}`); // Logging the results 
