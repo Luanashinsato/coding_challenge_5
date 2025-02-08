@@ -45,3 +45,10 @@ console.log("Total Revenue:", totalRevenue); // Logging the total revenue
 const customers = ["Alice", "Bob", "Charlie", "David"]; // Declaring a customers array 
 const found = customers.find(customer => customer === "Charlie") // Using the .find() method to locate the customer "Charlie"
 console.log(found); // Logging the result 
+
+// Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+} // Declaring the function
+let tax = calculateTax(200, 0.07); // Calling the function 
+console.log(`Calculated Tax: $${tax.toFixed(2)}`); // Logging the calculated tax
