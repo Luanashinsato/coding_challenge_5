@@ -40,3 +40,8 @@ console.log("Inventory:", availableProducts); // Logging the filtered array
 let sales = [500, 300, 200, 400]; // Declaring a sales array 
 let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Calculating the total revenue using the .reduce() method 
 console.log("Total Revenue:", totalRevenue); // Logging the total revenue
+
+// Task 7: find() Method
+const customers = ["Alice", "Bob", "Charlie", "David"]; // Declaring a customers array 
+const found = customers.find(customer => customer === "Charlie") // Using the .find() method to locate the customer "Charlie"
+console.log(found); // Logging the result 
